@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+main .carousel {
+  background-color: #d3d3d3;
+  width: 100%;
+  max-width: 600px;
+  aspect-ratio: 1/0.5;
+  position: relative;
+  outline: solid #fff;
+  outline-offset: 5px;
+}
+main .carousel .wrapCards {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+main .carousel .wrapCards .cardGrp {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  transform: translatex(-100%);
+}
+main .carousel .wrapCards .cardGrp .imgCard {
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+}
+main .carousel .wrapCards .cardGrp .imgCard img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .carousel .larrow,
+main .carousel .rarrow {
+  position: absolute;
+  background-color: blue;
+  font-size: clamp(2rem, 3vw, 3rem);
+  top: 50%;
+  transform: translateY(-50%);
+}
+main .carousel .larrow {
+  left: 0;
+}
+main .carousel .rarrow {
+  right: 0;
+}/*# sourceMappingURL=style.css.map */
