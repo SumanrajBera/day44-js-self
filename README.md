@@ -1,4 +1,4 @@
-# Self Task: Creating a webpage with different kinds of componenents
+# Self Task: Creating a webpage with different kinds of components
 - In this repository I want to create a webpage with various type of dynamic components like caroussel, selection based image display, etc.
 
 ## Trial runs
