@@ -3,4 +3,4 @@
 
 ## Trial runs
 - Carousel level 1: This is basic level of caroussel for sliding based on buttons. [Link](https://codepen.io/Sumanraj-Bera/pen/myPWVXa)
-- Carousel level 2: This is second level of carousel which introduces infinite scrolling
+- Carousel level 2: This is second level of carousel which introduces infinite scrolling. [Link](https://codepen.io/Sumanraj-Bera/pen/OPNgNKM)
